@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="dq.database.mapper.SCMapper">
-    
+
+    <insert id="insertSC" parameterType="SC">
+        insert into sc values (#{S},#{C},#{Score})
+    </insert>
+    <select id="getAllSC" resultType="dq.database.entity.SC">
+        select * from sc
+    </select>
 </mapper>
