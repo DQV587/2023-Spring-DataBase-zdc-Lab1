@@ -6,14 +6,13 @@ import dq.database.entity.Student;
 import dq.database.mapper.CourseMapper;
 import dq.database.mapper.SCMapper;
 import dq.database.mapper.StudentMapper;
-import gui.DataBaseGui;
+import dq.database.gui.DataBaseGui;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import javax.swing.*;
-import java.awt.*;
 import java.io.IOException;
 import java.io.Reader;
 import java.sql.*;

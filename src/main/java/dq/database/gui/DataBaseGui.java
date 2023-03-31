@@ -1,4 +1,4 @@
-package gui;
+package dq.database.gui;
 
 import dq.database.entity.Course;
 import dq.database.entity.SC;
